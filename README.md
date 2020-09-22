@@ -2,7 +2,7 @@
 
 ### A Siamese Neural Network for Accurate Estimation of Table Similarity
 
-This repository contains a table corpus made from tables extracted from scientific articles published in PMC, and additionally contains the code and the models for measuring the similarity between a pair of tables.
+This repository contains a table corpus made from tables extracted from scientific articles published in PMC, and additionally contains the code and the models for measuring the similarity between a pair of tables. To reproduce our results on tables from <a href = "https://en.wikipedia.org/wiki/Wikipedia:Database_download"> Wikipedia</a> and <a href = "https://arxiv.org/help/bulk_data_s3"> arXiv </a> articles, you can download them from  
 <br>
 ## Train a model
 To train a model, you need to use the TabSimTrain.py and provide the number of epochs, the learning rate value and the location of the trained embeddings (download it from <a href = "http://bio.nlplab.org/"> here</a>), the table data (in tables.picklef file) and the directory of the trained model:
