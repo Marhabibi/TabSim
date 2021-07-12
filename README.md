@@ -5,7 +5,7 @@
 This repository contains a table corpus made from tables extracted from scientific articles published in PMC, and additionally contains the code and the models for measuring the similarity between a pair of tables. You can also reproduce our results on tables from <a href = "https://github.com/bfetahu/wiki_tables"> Wikipedia</a> and <a href = "http://boston.lti.cs.cmu.edu/eager/table-arxiv/"> arXiv </a> articles.
 <br>
 ## Train a model
-To train a model, you need to use the TabSimTrain.py and provide the number of epochs, the learning rate value and the location of the trained embeddings (download it from <a href = "http://bio.nlplab.org/"> here</a>), the table data (in **tables.pickle** file) and the directory of the trained model:
+To train a model, you need to use the TabSimTrain.py and provide the number of epochs, the learning rate value and the location of the trained embeddings (download it from <a href = "http://bio.nlplab.org/"> here</a>), the table data (in ```tables.pickle``` file) and the directory of the trained model:
 ```
 TabSimTrain.py [-h] -e N_EPOCH -l LR -v EMBEDDING_LOC -i INPUT_TABLES -o MODEL_DIR
 ```
